@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    
+}
+
+body {
+    background-color: #F3F5FC;
+}
+
+header {
+    margin: 40px 0 0 40px;
+}
+
+#textoEntrada {
+    position: relative;
+    right: 40px;
+    bottom: 40px;
+    resize: none;
+    border: none;
+    background-color: #F3F5FC;
+    font-size: 32px;
+    color: #0A3871;
+}
+
+textarea::placeholder {
+    color: #0A3871;
+}
+
+.container-text {
+    max-width: 600px;
+    margin: 80px 0 0 300px;
+    color: #0A3871;
+    font-size: 32px;
+}
+
+.container-conditions {
+    margin-left: 240px;
+    font-size: 12px;
+    color: #495057;
+}
+
+.btn {
+    margin: 16px 0 0 240px;
+    display: flex;
+    gap: 24px;
+}
+
+.btn-blue,
+.btn-gray {
+    width: 330px;
+    height: 67px;
+    border-radius: 24px;
+    border: 1px solid #0A3871;
+    font-size: 16px;
+}
+
+.btn-blue {
+    background-color: #0A3871;
+    color: #fff;
+}
+
+.btn-blue:hover {
+    background-color: #052449;
+    color: #fff;
+}
+
+.btn-gray {
+    background-color: #D8DFE8;
+    color: #0A3871;
+}
+
+.btn-gray:hover {
+    background-color: rgb(173, 183, 202);
+    color: #052245;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 40px;
+    
+}
+
+.container-aside {
+    width: 400px;
+    background-color: #fff;
+    height: 600px;
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    position: relative;
+    box-sizing: border-box;
+    top: -50px;
+}
+
+#empty-value {
+    margin: 0 32px;
+    text-align: center;
+    position: relative;
+    top: 80px;
+}
+
+strong{
+    position: relative;
+    top: 32px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#text {
+    position: relative;
+    top: 50px;
+    font-size: 16px;
+}
+/* aside com texto codificado */
+#full-value {
+    margin: 42px;
+    max-width: fit-content;
+}
+
+#text-coded {
+    height: 460px;
+    font-size: 16px;
+}
+
+#btn-copy {
+    width: 330px;
+    height: 67px;
+    border-radius: 24px;
+    background-color: #fff;
+    color: #0A3871;
+    font-size: 16px;
+}
+
+#btn-copy:hover {
+    width: 330px;
+    height: 67px;
+    border-radius: 24px;
+    background-color: #f2f2f2;
+    color: #0a3871;
+    font-size: 16px;
+}
